@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./bela-jovem-agitando-a-pata-do-cao-no-jardim.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+
+span [name]{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+span [name]:hover{
+    box-shadow: 0px 0px 30px whitesmoke;
+    border: none;
+    background: transparent;
+    
+}
+
+span [name]:hover{
+    color: whitesmoke;
+}
+.nav-bar{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-left: 400px;
+    transition: 150ms ease-in-out;
+    border-radius: 10px;
+    
+}
+
+nav:hover{
+    backdrop-filter: blur(2px);
+}
+
+li{
+    display: inline;
+    padding: 30px;
+    color: #161616;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #161616;
+    transition: 120ms ease-in-out;
+    box-sizing: border-box;
+    font-size: 1.15em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+a:hover{
+    border-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: whitesmoke;
+}
+
+button{
+
+    margin-left: 400px ;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 1.15em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px whitesmoke solid;
+    color: whitesmoke;
+
+}
+
+button:hover{
+    backdrop-filter: blur(3px);
+    border-color: lightgray;
+    box-shadow: 0px 0px 20px lightgray;
+
+}
+
+.box-registro{
+    display: grid;
+    width: 400px;
+}
+
+.formbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120%;
+    padding: 0px 0px 100px 0px;
+}
+
+h2{
+    font-size: 2em;
+    color: blue;
+    margin-right: 100px;
+}
+
+footer{
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+}
+
